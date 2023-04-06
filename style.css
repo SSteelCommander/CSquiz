@@ -1,1 +1,89 @@
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .choice-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .choice-btn:hover {
+    background-color: #f2f2f2;
+  }
+  
+  #submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #submit-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #start-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  #start-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #question {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  #end p {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  
+  #end form {
+    margin-top: 20px;
+  }
+  
+  #end label {
+    margin-right: 10px;
+  }
+  
+  #initials {
+    width: 40px;
+    text-align: center;
+  }
